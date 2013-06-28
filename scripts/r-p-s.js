@@ -27,47 +27,33 @@ $(document).ready(function() {
 
             if (userChoice === "rock") {
                 result.html("Tie!");
-            }
-            else if (userChoice === "paper") {
+            } else if (userChoice === "paper") {
                 result.html("You win");
-            }
-            // if userChoice is scissors
-            else {
+            } else { // if userChoice is scissors
                 result.html("Computer wins");
             }
-        }
-        // computer's choice is paper
-        else if (computerChoice === 1) {
+        } else if (computerChoice === 1) { // computer's choice is paper
             computerChoice = "paper";
             computerTextField.html("Computer chose " + computerChoice);
 
             if (userChoice === "rock") {
                 result.html("Computer wins");
-            }
-            else if (userChoice === "paper") {
+            } else if (userChoice === "paper") {
                 result.html("Tie!");
-            }
-            // if userChoice is scissors
-            else {
+            } else { // if userChoice is scissors
                 result.html("You win");
             }
-        }
-        // computer's choice is scissors
-        else {
+        } else { // computer's choice is scissors
             computerChoice = "scissors";
             computerTextField.html("Computer chose " + computerChoice);
 
             if (userChoice === "rock") {
                 result.html("You win");
-            }
-            else if (userChoice === "paper") {
+            } else if (userChoice === "paper") {
                 result.html("Computer wins");
-            }
-            // if userChoice is scissors
-            else {
+            } else { // if userChoice is scissors
                 result.html("Tie!");
             }
         }
     });
 });
-
