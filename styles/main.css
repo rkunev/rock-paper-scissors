@@ -107,15 +107,14 @@ h3 {
     text-align: center;
     max-height: 584px;
 }
-    #main-content .title,
-    #main-content #description {
+    #main-content .title {
         font-size: 3.75em;
         color: #484848;
         text-shadow: 0px 1px 0px #fff;
     }
     #main-content .title {    
         display: block;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
     #main-content .items {
         margin: 0 auto;
@@ -133,9 +132,20 @@ h3 {
     #main-content .items img:last-child {
         padding-right: 0px;
     }
-    #description {
-        line-height: 3em;
-        /*visibility: hidden;*/
+    #main-content span {
+        padding: 0 20px;
+    }
+    #user-field,
+    #computer-field,
+    #result {
+        font-size: 2em;
+        color: #484848;
+        text-shadow: 0px 1px 0px #fff;
+
+        padding-bottom: 20px;
+    }
+    #result {
+        font-size: 3em;
     }
 
 /*
@@ -207,6 +217,6 @@ footer {
  * Starts jQuery animation styles
  */
 
-.newClass {
-    width: 250px;
+.userChoice {
+    
 }
