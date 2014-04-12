@@ -1,4 +1,4 @@
-rock-paper-scissors
+Rock/Paper/Scissors
 ===================
 
 basic js/jQuery game
