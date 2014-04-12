@@ -1,4 +1,6 @@
 rock-paper-scissors
 ===================
 
-basic js game
+basic js/jQuery game
+
+http://rkunev.github.io/rock-paper-scissors
