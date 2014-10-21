@@ -1,0 +1,9 @@
+remove all positioning and displaying css rules in main.css
+
+test img row with black bg
+
+footer restyle footer when < 760px
+re-theme everything when positioning is done
+
+
+!!! figure out how to position results
